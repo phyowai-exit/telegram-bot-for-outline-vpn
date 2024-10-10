@@ -15,11 +15,11 @@ from textwrap import dedent
 def make_message_for_new_key(access_url: str, server_id: ServerId) -> str:
 
    message_to_send = dedent(
-f"""Ваш ключ:
+VPN KEY:
    \n<code>{access_url}</code>
-   \nНажмите на него, чтобы скопировать.
-   \nЛокация сервера: <b>{servers_description.get(server_id)}</b>
-   \nЭтот ключ нужно вставить в приложение <b>Outline Client.</b>
+   \nကော်ပီကူးရန် ၎င်းကိုနှိပ်ပါ။
+   \nဆာဗာတည်နေရာ: <b>{servers_description.get(server_id)}</b>
+   \nဤကီးကို အပလီကေးရှင်းထဲသို့ ထည့်သွင်းရပါမည်။ <b>Outline Client.</b>
    """)
    return message_to_send
 
@@ -27,27 +27,27 @@ f"""Ваш ключ:
 def make_download_message() -> str:
     message_to_send = dedent(
     f"""
-   <a href="{OUTLINE_WINDOWS_DOWNLOAD_LINK}">Скачать для Windows</a>
-   <a href="{OUTLINE_MACOS_DOWNLOAD_LINK}">Скачать для MacOS</a>
-   <a href="{OUTLINE_LINUX_DOWNLOAD_LINK}">Скачать для Linux</a>
-   <a href="{OUTLINE_CHOMEOS_DOWNLOAD_LINK}">Скачать для ChromeOS</a>
-   <a href="{OUTLINE_IOS_DOWNLOAD_LINK}">Скачать для iOS</a>
-   <a href="{OUTLINE_ANDROID_DOWNLOAD_LINK}">Скачать для Android</a>
-   <a href="{OUTLINE_ANDROID_APK_DOWNLOAD_LINK}">Скачать apk-файл для Android</a>
+   <a href="{OUTLINE_WINDOWS_DOWNLOAD_LINK}">Windows အတွက် ဒေါင်းလုဒ်လုပ်ပါ။</a>
+   <a href="{OUTLINE_MACOS_DOWNLOAD_LINK}">MacOS အတွက်ဒေါင်းလုဒ်လုပ်ပါ။</a>
+   <a href="{OUTLINE_LINUX_DOWNLOAD_LINK}">Linux အတွက် ဒေါင်းလုဒ်လုပ်ပါ။</a>
+   <a href="{OUTLINE_CHOMEOS_DOWNLOAD_LINK}">ChromeOS အတွက် ဒေါင်းလုဒ်လုပ်ပါ။</a>
+   <a href="{OUTLINE_IOS_DOWNLOAD_LINK}">iOS အတွက် ဒေါင်းလုဒ်လုပ်ပါ။</a>
+   <a href="{OUTLINE_ANDROID_DOWNLOAD_LINK}">Android အတွက် ဒေါင်းလုဒ်လုပ်ပါ။</a>
+   <a href="{OUTLINE_ANDROID_APK_DOWNLOAD_LINK}">Android အတွက် apk ဖိုင်ကိုဒေါင်းလုဒ်လုပ်ပါ။</a>
     """)
     return message_to_send
 
 
 def make_help_message() -> str:
 
-    message_to_send = "Чтобы создать ключ, нажмите на кнопку. "\
-            "\n\nТакже вы можете воспользоваться следующей командой:\n\n"\
+    message_to_send = "VPN Key တစ်ခုထုတ်လုပ်ရန် ခလုတ်ကိုနှိပ်ပါ။ "\
+            "\n\nအောက်ဖော်ပြပါ command ကိုလည်း သုံးနိုင်သည်။:\n\n"\
             "<code>/newkey server_id key_name</code>\n\n"\
-            "<i>server_id</i> - это номер сервера.\n"\
-            "<i>key_name</i> - это имя ключа.\n"\
-            "Чтобы посмотреть список доступных серверов, введите /servers.\n"\
-            "Пример использования команды:\n\n"\
-            "<code>/newkey 0 pashahacker</code>\n\n"\
+            "<i>server_id</i> - ဒါက ဆာဗာနံပါတ်ပါ။\n"\
+            "<i>key_name</i> - ဒါက အဓိက နာမည်ပါ။\n"\
+            "ရနိုင်သောဆာဗာများစာရင်းကိုကြည့်ရန် /ဆာဗာများကိုထည့်ပါ။\n"\
+            "Command ကိုအသုံးပြုပုံဥပမာ:\n\n"\
+            "<code>/newkey 0 </code>\n\n"\
 
 
     return message_to_send
