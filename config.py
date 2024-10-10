@@ -15,7 +15,7 @@ servers_description = {             # {'server_id' : 'description'}
 
 
 #Main bot settings
-BOT_API_TOKEN = os.getenv("BOT_API_TOKEN")
+BOT_API_TOKEN = os.getenv("7406367010:AAERVBptWKL1moUy8G81H4k0i8mO0ZQ54sI")
 DEFAULT_SERVER_ID = "0"
 
 
