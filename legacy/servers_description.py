@@ -7,7 +7,7 @@ servers ={                          # {'server_id':'api_url'}
 
 
 servers_description = {             # {'server_id' : 'description'}
-        '0': 'Амстердам'
+        '0': 'Us-Server'
         }
 
 
