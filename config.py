@@ -2,15 +2,15 @@ import os
 
 
 #Outline api servers settings
-OUTLINE_API_URL_0 = os.getenv('OUTLINE_API_URL_0')
+OUTLINE_API_URL_0 = os.getenv('https://5.78.95.223:5125/j5NPhn_PAEhUZGUIXgyO0g')
 
 servers ={                          # {'server_id':'api_url'}
-        '0': OUTLINE_API_URL_0
+        '18b77702-b2fe-40e4-ba45-b11a9fb95035': OUTLINE_API_URL_0
         }
 
 
 servers_description = {             # {'server_id' : 'description'}
-        '0': 'Амстердам'
+        '18b77702-b2fe-40e4-ba45-b11a9fb95035': 'SkyLinkOutLineServer'
         }
 
 
