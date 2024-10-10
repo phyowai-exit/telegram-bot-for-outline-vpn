@@ -2,7 +2,7 @@ import os
 
 
 #Outline api servers settings
-OUTLINE_API_URL_0 = os.getenv('https://5.78.95.223:5125/j5NPhn_PAEhUZGUIXgyO0g')
+OUTLINE_API_URL_0 = os.getenv('https://54.251.27.188:19364/hVwbqd0arSo9ydGbgCz2WA')
 
 servers ={                          # {'server_id':'api_url'}
         '0': OUTLINE_API_URL_0
@@ -15,7 +15,7 @@ servers_description = {             # {'server_id' : 'description'}
 
 
 #Main bot settings
-BOT_API_TOKEN = os.getenv("7406367010:AAERVBptWKL1moUy8G81H4k0i8mO0ZQ54sI")
+BOT_API_TOKEN = os.getenv("7667240966:AAGEsq93yPqO5LBusP4pejef-FJdilsSHu8")
 DEFAULT_SERVER_ID = "0"
 
 
@@ -30,7 +30,7 @@ OUTLINE_ANDROID_APK_DOWNLOAD_LINK = "https://s3.amazonaws.com/outline-releases/c
 
 
 #Monitoring bot settings
-MONITOR_API_TOKEN = os.getenv("7406367010:AAERVBptWKL1moUy8G81H4k0i8mO0ZQ54sI")
+MONITOR_API_TOKEN = os.getenv("7667240966:AAGEsq93yPqO5LBusP4pejef-FJdilsSHu8")
 ADMIN_CHAT_ID = os.getenv("7492564460")
 
 
